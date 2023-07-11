@@ -18,4 +18,18 @@
         android:text="@string/push"
         />
 
+    <ProgressBar
+        android:id="@+id/prBar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/btn"
+        android:progress="0"
+        android:max="100"
+        />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
